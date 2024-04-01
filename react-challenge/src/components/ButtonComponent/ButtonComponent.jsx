@@ -1,8 +1,9 @@
 import React from 'react'
+import {Link} from 'react-router-dom'
 
-function ButtonComponent() {
+function ButtonComponent(props) {
   return (
-    <div>ButtonComponent</div>
+    <Link to = {props.linkurl} state={props.data}>Click to see complete user data...</Link>
   )
 }
 
