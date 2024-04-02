@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import CardComponent from '../CardComponent/CardComponent'
-
+import './DataComponent.css'
 
 function DataComponent() {
     const [data, setData] = useState([]);
@@ -24,7 +24,7 @@ function DataComponent() {
 
     return (
         <div>
-            <input type="text" placeholder='Search by name' onChange={(e) => setSearch(e.target.value)} />
+            <input className="Search" type="text" placeholder='Search by name' onChange={(e) => setSearch(e.target.value)} />
             <CardComponent item = {dataFiltered}/>
         </div>
     )

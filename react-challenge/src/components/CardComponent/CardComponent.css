@@ -1,0 +1,18 @@
+.CardComponent{
+   display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.CardComponent .card{
+    margin: 0.25vw;
+}
+
+@media screen and (max-width: 980px){
+    .CardComponent{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    
+    .CardComponent .card{
+        box-shadow : 4px 4px 4px #77a6f2;
+    }
+}

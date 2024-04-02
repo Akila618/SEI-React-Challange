@@ -3,7 +3,7 @@ import {Link} from 'react-router-dom'
 
 function ButtonComponent(props) {
   return (
-    <Link to = {props.linkurl} state={props.data}>Click to see complete user data...</Link>
+    <Link to = {props.linkurl} state={props.data}>See more...</Link>
   )
 }
 

@@ -1,19 +1,20 @@
 import React from 'react'
 import ButtonComponent from '../ButtonComponent/ButtonComponent'
+import './CardComponent.css'
 
 function CardComponent({item}) {
   return (
-    <div>
+    <div className='CardComponent'>
         {item.map((data) => (
-            <div key={data.id} class="card text-center">
-                <div class="card-body">
-                  <h4 class=" display-4 card-title">{data.name}</h4>
-                  <h4 class=" display-5 card-text">{data.email}</h4>
-                  <h4 class="display-5 card-text">{data.phone}</h4>
-                  <h1 class="display-6 card-text">{data.website}</h1>
+            <div key={data.id} className="card text-center">
+                <div className="card-body">
+                  <h2 className="card-title">{data.name}</h2>
+                  <h5 className="card-text">{data.email}</h5>
+                  <h6 className="card-text">{data.phone}</h6>
+                  <h6 className="card-text">{data.website}</h6>
                 </div>
-                <div class="d-grid gap-2 col-8 mx-auto">
-                  <div class="btn btn-outline-primary">
+                <div className="d-grid gap-2 col mx-auto">
+                  <div className="btn btn-outline-primary">
                     <ButtonComponent linkurl='/userInfo' data={data}/>
                   </div>
                 </div>

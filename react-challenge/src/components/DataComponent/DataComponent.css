@@ -1,0 +1,10 @@
+.Search{
+    margin: 2vw;
+    padding: 3px;
+    text-align: center;
+    width: 50vw;
+    border-radius: 15px;
+    box-shadow: 2px 2px 4px #77a6f2;
+    background-color: #f8f8f8d6;
+    color: black;
+}
