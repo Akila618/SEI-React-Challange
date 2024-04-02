@@ -5,6 +5,19 @@
 
 .CardComponent .card{
     margin: 0.25vw;
+    border: #0f68f8;
+    border-style: groove;
+    background-color: #e3eeff;
+}
+
+.CardComponent .card-body{
+    margin: 0.25vw;
+    border-style:solid;
+    border-color: #e3eeff;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    background-color: aliceblue;
+
 }
 
 @media screen and (max-width: 980px){
@@ -13,6 +26,6 @@
     }
     
     .CardComponent .card{
-        box-shadow : 4px 4px 4px #77a6f2;
+        box-shadow : 2px 2px 2px #77a6f2;
     }
 }

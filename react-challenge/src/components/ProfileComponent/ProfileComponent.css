@@ -52,3 +52,15 @@
     color: aliceblue;
     text-shadow: 0 0 10px rgba(143, 142, 252, 0.5);
 }
+
+.profile-body .card-body{
+    text-align: left;
+}
+
+.profile-body span{
+    color: rgb(0, 82, 155);
+    text-shadow: 0 0 0.1px rgba(7, 2, 255, 0.5);
+}
+.profile-body .company{
+    margin-top: 20px;
+}

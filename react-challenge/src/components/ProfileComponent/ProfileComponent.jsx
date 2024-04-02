@@ -19,20 +19,20 @@ function ProfileComponent() {
           <div className='col'>
             <div className='card text-center'>
               <div className='card-body'>
-                <h2 className='card-title'>{userData.name}</h2>
-                <h5 className='card-text'>{userData.username}</h5>
-                <h5 className='card-text'>{userData.email}</h5>
-                <h6 className='card-text'>{userData.phone}</h6>
-                <h6 className='card-text'>{userData.website}</h6>
-                <h6 className='card-text'>{userData.address.street}, {userData.address.suite}</h6>
-                <h6 className='card-text'>{userData.address.city} - {userData.address.zipcode}</h6>
+                <h2 className='card-title'><span></span>{userData.name}</h2>
+                <h5 className='card-text'><span>User Name: </span>{userData.username}</h5>
+                <h5 className='card-text'><span>Email: </span>{userData.email}</h5>
+                <h6 className='card-text'><span>Phone: </span>{userData.phone}</h6>
+                <h6 className='card-text'><span>Web: </span>{userData.website}</h6>
+                <h6 className='card-text'><span>Address: </span>{userData.address.street}, {userData.address.suite}</h6>
+                <h6 className='card-text'><span>City/ZIP code: </span>{userData.address.city} - {userData.address.zipcode}</h6>
 
                 <div>
-                  <h5 className='card-text'>Company Details</h5>
-                  <h6 className='card-text'>Web site: {userData.website}</h6>
-                  <h6 className='card-text'>Company: {userData.company.name}</h6>
-                  <h6 className='card-text'>Catch Phrase: {userData.company.catchPhrase}</h6>
-                  <h6 className='card-text'>BS: {userData.company.bs}</h6>
+                  <h5 className='card-text company'>Company Details</h5>
+                  <h6 className='card-text'><span>Web site: </span>{userData.website}</h6>
+                  <h6 className='card-text'><span>Company: </span>{userData.company.name}</h6>
+                  <h6 className='card-text'><span>Catch phrase: </span> {userData.company.catchPhrase}</h6>
+                  <h6 className='card-text'><span>BS: </span>{userData.company.bs}</h6>
                 </div>
               </div>
               <div className='d-grid gap-2 col mx-auto'>

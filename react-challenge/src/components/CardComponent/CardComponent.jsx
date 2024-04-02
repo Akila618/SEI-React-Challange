@@ -10,8 +10,8 @@ function CardComponent({item}) {
                 <div className="card-body">
                   <h2 className="card-title">{data.name}</h2>
                   <h5 className="card-text">{data.email}</h5>
-                  <h6 className="card-text">{data.phone}</h6>
-                  <h6 className="card-text">{data.website}</h6>
+                  <h6 className="card-text">Contact: {data.phone}</h6>
+                  <h6 className="card-text">Web: {data.website}</h6>
                 </div>
                 <div className="d-grid gap-2 col mx-auto">
                   <div className="btn btn-outline-primary">
