@@ -7,10 +7,11 @@ import DataComponent from './components/DataComponent/DataComponent'
 function App() {
   return (
     <>
-      <div>
-        
-        <h1>React Challenge</h1>
-        <DataComponent/>
+      <div className="container text-center">
+            <h1 className="display-1">React Uers</h1>
+            <div>
+              <DataComponent/>
+            </div>
       </div>
     </>
   )

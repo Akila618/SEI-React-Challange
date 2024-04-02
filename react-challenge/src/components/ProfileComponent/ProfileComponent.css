@@ -1,0 +1,66 @@
+.profile-body{
+    
+}
+.profile-body .container{
+    padding: 2rem;
+    background: rgba(255, 255, 255, 0.597);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.5);
+}
+
+.profile-body .cont{
+    background: rgba(255, 255, 255, 0.991);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.5);
+} 
+  
+
+.profile-body .container .row{
+    display: flex;
+    justify-content: space-between;
+    padding: 2em;
+}
+
+.profile-body .container .row{
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+.profile-body .container .row .profile-image{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 2em;
+}
+
+.profile-body .container img{
+  border:none
+}
+
+@media screen and (max-width: 768px) {
+    .profile-body .container .row{
+        flex-direction: column;
+    }
+    
+}
+
+#heading{
+    font-size: 3.2em;
+    line-height: 1.1;
+    margin-bottom: 0.5em;
+    color: aliceblue;
+    text-shadow: 0 0 10px rgba(143, 142, 252, 0.5);
+}
+
+.profile-body .card-body{
+    text-align: left;
+}
+
+.profile-body span{
+    color: rgb(0, 82, 155);
+    text-shadow: 0 0 0.1px rgba(7, 2, 255, 0.5);
+}
+.profile-body .company{
+    margin-top: 20px;
+}

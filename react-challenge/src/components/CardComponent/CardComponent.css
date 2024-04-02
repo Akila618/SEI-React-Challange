@@ -1,0 +1,31 @@
+.CardComponent{
+   display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.CardComponent .card{
+    margin: 0.25vw;
+    border: #0f68f8;
+    border-style: groove;
+    background-color: #e3eeff;
+}
+
+.CardComponent .card-body{
+    margin: 0.25vw;
+    border-style:solid;
+    border-color: #e3eeff;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    background-color: aliceblue;
+
+}
+
+@media screen and (max-width: 980px){
+    .CardComponent{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    
+    .CardComponent .card{
+        box-shadow : 2px 2px 2px #77a6f2;
+    }
+}
